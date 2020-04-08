@@ -7,11 +7,11 @@ export default {
     input: 'script/umdHelp.js',
     output: [
         {
-            file: 'dist/rollup2-lib.cmd.help.js',
+            file: 'dist/rollup2-lib.umd.help.js',
             format: 'iife',
         },
         {
-            file: 'dist/rollup2-lib.cmd.help.min.js',
+            file: 'dist/rollup2-lib.umd.help.min.js',
             format: 'iife',
             plugins: [terser()],
         },
