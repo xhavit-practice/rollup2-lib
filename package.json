@@ -1,6 +1,6 @@
 {
     "name": "rollup2-lib",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "rollup2 library practice",
     "main": "dist/rollup2-lib.cjs.js",
     "module": "dist/rollup2-lib.es.js",
