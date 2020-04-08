@@ -13,7 +13,7 @@ export default {
         {
             file: 'dist/rollup2-lib.umd.js',
             format: 'umd',
-            name: 'roll2Lib',
+            name: 'rollup2Lib',
             globals: {
                 ...getPkgMethodGlobals({ lodash: '_' }),
                 mockjs: 'Mock',
@@ -22,7 +22,7 @@ export default {
         {
             file: 'dist/rollup2-lib.umd.min.js',
             format: 'umd',
-            name: 'roll2Lib',
+            name: 'rollup2Lib',
             globals: {
                 ...getPkgMethodGlobals({ lodash: '_' }),
                 mockjs: 'Mock',
