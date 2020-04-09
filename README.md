@@ -1,13 +1,13 @@
-# install
+# Install
 
 `npm install rollup2-lib`
 
-# dependencies
+# Dependencies
 
 -   lodash
 -   mockjs
 
-# usage
+# Usage
 
 ## Browser
 
