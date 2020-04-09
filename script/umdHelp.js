@@ -9,9 +9,9 @@ import deps from './deps';
  * 思路是，单独定义对应模块，让amd库可以正确的处理依赖
  */
 if (typeof define === 'function' && define.amd) {
-    for (const [libName, libMethods] in Object.entries(deps)) {
-        libMethods.forEach(function(method) {
-            define(`${libName}/${method}`, [libName], function(libModule) {
+    for (const [libName, libMethods] of Object.entries(deps)) {
+        libMethods.forEach(function (method) {
+            define(`${libName}/${method}`, [libName], function (libModule) {
                 return libModule[m.split('/')[1]];
             });
         });
