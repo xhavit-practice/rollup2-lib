@@ -12,7 +12,7 @@ if (typeof define === 'function' && define.amd) {
     for (const [libName, libMethods] of Object.entries(deps)) {
         libMethods.forEach(function (method) {
             define(`${libName}/${method}`, [libName], function (libModule) {
-                return libModule[m.split('/')[1]];
+                return libModule[method];
             });
         });
     }
